@@ -3,7 +3,7 @@
  * Plugin Name: Quote This
  * Plugin URI: http://justintadlock.com/archives/2009/03/26/quote-this-wordpress-plugin
  * Description: A plugin for displaying quotes on your site with either the <code>quote_this()</code> function, <code>[quote-this]</code> shortcode, or <em>Quote This</em> widget.
- * Version: 0.2 Alpha
+ * Version: 0.2
  * Author: Justin Tadlock
  * Author URI: http://justintadlock.com
  *
@@ -24,7 +24,7 @@
  * @package QuoteThis
  * @version 0.2.0
  * @author Justin Tadlock <justin@justintadlock.com>
- * @copyright Copyright (c) 2009 - 2012, Justin Tadlock
+ * @copyright Copyright (c) 2006 - 2012, Justin Tadlock
  * @link http://justintadlock.com/archives/2009/03/26/quote-this-wordpress-plugin
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
