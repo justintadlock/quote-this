@@ -56,7 +56,7 @@ function quote_this_literature() {
 	$quotes[] = array( "I believe that religion, generally speaking, has been a curse to mankind - that its modest and greatly overestimated services on the ethical side have been more than overcome by the damage it has done to clear and honest thinking.", "Henry Louis Mencken" );
 	$quotes[] = array( "If a man isn't willing to take some risk for his opinions, either his opinions are no good or he's no good.", "Ezra Pound" );
 	$quotes[] = array( "He had decided to live forever or die in the attempt.", "Joseph Heller" );
-	$quotes[] = array( "Procastination is the thief of time.", "Joseph Heller" );
+	$quotes[] = array( "Procrastination is the thief of time.", "Joseph Heller" );
 	$quotes[] = array( "I want to keep my dreams, even bad ones, because without them, I might have nothing all night long.", "Joseph Heller" );
 	$quotes[] = array( "He knew everything about literature except how to enjoy it.", "Joseph Heller" );
 	$quotes[] = array( "Every writer I know has trouble writing.", "Joseph Heller" );

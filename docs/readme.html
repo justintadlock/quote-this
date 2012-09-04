@@ -4,12 +4,12 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <title>A guide to the Quote This plugin</title>
 
-<link rel="stylesheet" href="readme.css" type="text/css" media="screen" />
+<style type="text/css">html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;vertical-align:baseline;outline:none;font-size:100%;background:transparent;border:none;text-decoration:none}b,i,hr,u,center,menu,layer,s,strike,font,xmp{margin:0;padding:0;vertical-align:baseline;outline:none;font-size:100%;font-weight:normal;font-style:normal;background:transparent;border:none;text-decoration:none}font{color:#333}center{text-align:left}body{line-height:25px;font-family:Cambria,Georgia,Times,"Times New Roman",serif;color:#333;background:#fff}h1,h2,h3,h4,h5,h6{font-style:normal;font-weight:normal;margin:0 0 25px 0}h1{font-size:1.8em}h2{font-size:1.7em}h3{font-size:1.55em}h4{font-size:1.4em}h5{font-size:1.25em}h6{font-size:1.1em}p{margin:0 0 25px 0}ol,ul{list-style:none}ul{list-style:disc;margin:0 0 25px 2.5em}ol{list-style-type:decimal;margin:0 0 25px 3em}ol ol{list-style:upper-roman}ol ol ol{list-style:lower-roman}ol ol ol ol{list-style:upper-alpha}ol ol ol ol ol{list-style:lower-alpha}ul ul,ol ol,ul ol,ol ul{margin-bottom:0}dl{margin:0 0 25px 5px}dl dt{font-weight:bold;margin:10px 0 0 0}dl dd{margin:5px 0 0 1.5em}strong{font-weight:bold}strong strong{font-weight:normal}em,cite{font-style:italic}em em,cite cite{font-style:normal}abbr{cursor:help}acronym{text-transform:uppercase;border-bottom:1px dashed #666;cursor:help}big{font-size:120%}small,sup,sub{font-size:80%}sup{vertical-align:baseline;position:relative;bottom:0.3em}sub{vertical-align:baseline;position:relative;top:0.3em}address{font-style:italic;margin:0 0 25px 0}li address,dd address{margin:0}blockquote{margin:0 25px;font-style:normal}blockquote em,blockquote cite{font-style:italic}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{cursor:pointer}a img{border:none}pre{overflow:auto;font:.9em Monaco,monospace,Courier,"Courier New";line-height:25px;margin-bottom:25px;padding:10px}code{font:.9em Monaco,monospace,Courier,"Courier New"}pre code{font-size:1em}ins,dfn{font-style:italic;text-decoration:none;border-bottom:1px solid #666}del{text-decoration:line-through}object{margin-bottom:25px}input,textarea{font-size:1em;font-family:Cambria,Georgia,Times,"Times New Roman",serif;padding:3px}:focus{outline:none}form label{cursor:pointer}option{padding:1px 2px}table{border-collapse:collapse;border-spacing:0;margin-bottom:25px}th,td{text-align:left}hr{margin-bottom:25px}img.wp-smiley{max-height:12px;margin:0;padding:0;border:none}.gallery{display:block;text-align:center;margin-bottom:25px !important}.alignleft,.left{float:left;margin-right:20px}.alignright,.right{float:right;margin-left:20px}.aligncenter,.center{display:block;margin:0 auto 25px auto}.alignnone,.block{clear:both;margin:0 0 25px 0}.clear{clear:both}img.alignleft,img.alignright{display:inline}body{width:750px;margin:36px auto 60px auto;font:15px/21px Arial,'Helvetica Neue',Helvetica,sans-serif;font:16px/25px Georgia,Times,'Times New Roman',serif}a:link,a:visited{color:#2f6eb9;text-decoration:none}a:hover,a:active{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin:40px 0 30px 0;color:#000;font-weight:bold;font-family:Arial,sans-serif}h3{font-weight:normal;font-style:italic;font-family:Georgia,Times,'Times New Roman',serif}h1{margin-top:80px;font-size:2.2em}code{padding:0 3px;background:#eee}pre code{padding:0}pre{padding:9px;background:#eee;border:1px solid #ccc}ul{list-style:square}p.first{font-size:21px}p.second{font-size:15px}ul.space li{margin-bottom:10px}.section{overflow:hidden}.columns-2{float:left;width:350px;margin:0 0 21px 25px}.columns-3{float:left;width:230px;margin:0 0 21px 20px}.warning,.alert{padding:6px 9px;background:#fffbbc;border:1px solid #E6DB55}</style>
 
 </head>
 <body>
 
-<h1 title="A guide to using the Quote This plugin">A guide to Quote This</h1>
+<h1>A guide to Quote This</h1>
 
 <p><em>Quote This</em> started a small bit of code I started using on my personal blog around 2006.  It was just a simple <acronym title="Hypertext Preprocessor">PHP</acronym> function for displaying a random quote from whatever category I wanted.  It has always been one of my favorite scripts, so I figured I'd beef up the functionality a bit and release it as a plugin.</p>
 
@@ -30,15 +30,13 @@
 
 <p>Once you've activated the plugin, you'll have three choices on how to use the plugin:</p>
 
-<ol>
+<ul>
 	<li><a href="#function" title="Using the Quote This function">Using the quote_this() function</a></li>
 	<li><a href="#shortcode" title="Using the Quote This shortcode">Using the [quote-this] shortcode</a></li>
 	<li><a href="#widget" title="Using the Quote This widget">Using the <em>Quote This</em> widget</a></li>
-</ol>
+</ul>
 
 <h3 id="function">Using the quote_this() function</h3>
-
-<p>This method of calling the plugin is ideal for your <a href="http://codex.wordpress.org/Template_Hierarchy" title="WordPress template hierarchy">template files</a> (i.e., <code>single.php</code>, <code>index.php</code>, <code>sidebar.php</code>).  What we'll be doing is using a <acronym title="Hypertext Preprocessor">PHP</acronym> function.</p>
 
 <p><strong>A basic example:</strong></p>
 
@@ -46,77 +44,27 @@
 
 <p>To input <a href="#parameters" title="Parameters for the Quote This plugin">parameters</a>, you may either use function-style parameters (preferred) or query-string-style parameters.</p>
 
-<p><strong>Example with function-style parameters:</strong></p>
+<p><strong>Example loading a quote of a specific type:</strong></p>
 
-<pre><code>&lt;?php if ( function_exists( 'quote_this' ) ) quote_this( array( 'format' => 'p', 'type' => 'film' ) ); ?&gt;</code></pre>
-
-<p><strong>Example with query-string-style parameters:</strong></p>
-
-<pre><code>&lt;?php if ( function_exists( 'quote_this' ) ) quote_this('format=p&amp;type=film'); ?&gt;</code></pre>
+<pre><code>&lt;?php if ( function_exists( 'quote_this' ) ) quote_this( array( 'type' => 'film' ) ); ?&gt;</code></pre>
 
 <h3 id="shortcode">Using the [quote-this] shortcode</h3>
 
 <p>The <code>[quote-this]</code> shortcode is ideal for adding quotes to your posts and pages from the <em>Write Post/Page</em> screen.  It's simple and requires no <acronym title="Hypertext Preprocessor">PHP</acronym> knowledge.</p>
 
-<p><strong>A basic example</strong></p>
+<p><strong>A basic example:</strong></p>
 
 <pre><code>[quote-this]</code></pre>
 
-<p>You may also choose to input some <a href="#parameters" title="Parameters for the Quote This plugin">parameters</a> to customize the output.</p>
-
 <p><strong>Example of the shortcode with parameters:</strong></p>
 
-<pre><code>[quote-this type="life" format="blockquote"]</code></pre>
+<pre><code>[quote-this type="life"]</code></pre>
 
 <h3 id="widget">Using the <em>Quote This</em> widget</h3>
 
 <p>The <em>Quote This</em> widget is pretty straightforward.  Just head over to the <em>Widgets</em> screen while in your WordPress admin and find the widget labeled <em>Quote This</em>.</p>
 
 <p>You'll see several options to customize the output of your widget.  These are the plugin <a href="#parameters" title="Parameters for the Quote This plugin">parameters</a>, which are explained below.  You may also use this widget any number of times.</p>
-
-<h2 id="parameters">Parameters</h2>
-
-<p><em>Quote This</em> has a few parameters, which can be accessed through the function call, shortcode, and widget.  Here are the defaults:</p>
-
-<pre><code>$defaults = array(
-	'type' => 'all',
-	'orderby' => 'rand',
-	'format' => 'blockquote',
-	'separator' => '-',
-	'echo' => true,
-);</code></pre>
-
-<dl>
-	<dt>type</dt>
-	<dd>Which type of quotes to show.</dd>
-	<dd>Possible values: <code>all</code> (default), <code>art</code>, <code>film</code>, <code>friendship</code>, <code>individual</code>, <code>life</code>, <code>literature</code></dd>
-
-	<dt>orderby</dt>
-	<dd>How to order the quote(s) shown.</dd>
-	<dd>Possible values: <code>rand</code> (more options will be added in the future)</dd>
-
-	<dt>format</dt>
-	<dd>What <acronym title="Extensible Hypertext Markup Language">XHTML</acronym> element should wrap the quotation.</dd>
-	<dd>Possible values: <code>blockquote</code> (default), <code>p</code></dd>
-
-	<dt>separator</dt>
-	<dd>What should be added between the quote and quote author.</dd>
-	<dd>Possible values: Anything (default is <code>-</code>)</dd>
-
-	<dt>echo</dt>
-	<dd>Whether the quotation should be printed to the screen or returned for use in a function (is not used for the <code>[quote-this]</code> shortcode.)</dd>
-	<dd>Possible values: <code>true</code> (default), <code>false</code></dd>
-</dl>
-
-<h2>Styling the output of your quotations</h2>
-
-<p><em>Quote This</em> will give you three <acronym title="Cascading Style Sheets">CSS</acronym> classes to work with:</p>
-
-<ol>
-	<li><code>quote-this</code>: Class of the element that wraps the quote and quote author.</li>
-	<li><code>quote</code>: Class of the element that wraps the actual quote.</li>
-	<li><code>quote-author</code>: Class of the element that wraps the quote author.</li>
-</ol>
 
 <h2>The future of the <em>Quote This</em> plugin</h2>
 
@@ -126,17 +74,17 @@
 
 <h2>Plugin support</h2>
 
-<p>I run a WordPress community called <a href="http://themehybrid.com" title="Theme Hybrid">Theme Hybrid</a>, which is where I fully support all of my WordPress projects, including plugins.  You can sign up for an account to get plugin support for a small yearly fee ($25 <acronym title="United States Dollars">USD</acronym> at the time of writing).</p>
+<p>I run a WordPress community called <a href="http://themehybrid.com" title="Theme Hybrid">Theme Hybrid</a>, which is where I fully support all of my WordPress projects, including plugins.  You can sign up for an account to get plugin support for a small yearly fee ($29 <acronym title="United States Dollars">USD</acronym> at the time of writing).</p>
 
 <p>I know.  I know.  You might not want to pay for support, but just consider it a donation to the project.  To continue making cool, <acronym title="GNU General Public License">GPL</acronym>-licensed plugins and having the time to support them, I must pay the bills.</p>
 
 <h2>Copyright &amp; license</h2>
 
-<p><em>Cleaner Gallery</em> is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 (<acronym title="GNU General Public License">GPL</acronym>).</p>
+<p><em>Quote This</em> is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 (<acronym title="GNU General Public License">GPL</acronym>).</p>
 
 <p>This plugin is copyrighted to <a href="http://justintadlock.com" title="Justin Tadlock">Justin Tadlock</a>.</p>
 
-<p>2006 &ndash; 2009 &copy; Justin Tadlock.  All rights reserved.</p>
+<p>2006&thinsp;&ndash;&thinsp;2012 &copy; Justin Tadlock.</p>
 
 </body>
 </html>

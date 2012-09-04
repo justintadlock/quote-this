@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quote This WordPress Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-03 21:42-0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Justin Tadlock <justin@justintadlock.com>\n"
+"Language-Team:  <justin@justintadlock.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__;_n;_x;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/widget-quote-this.php:20
+msgid "A widget that allows you to show a quote from the Quote This collection."
+msgstr ""
+
+#: includes/widget-quote-this.php:30
+#: includes/widget-quote-this.php:79
+msgid "Quote This"
+msgstr ""
+
+#: includes/widget-quote-this.php:89
+msgid "Art"
+msgstr ""
+
+#: includes/widget-quote-this.php:90
+msgid "Film"
+msgstr ""
+
+#: includes/widget-quote-this.php:91
+msgid "Friendship"
+msgstr ""
+
+#: includes/widget-quote-this.php:92
+msgid "Individual"
+msgstr ""
+
+#: includes/widget-quote-this.php:93
+msgid "Life"
+msgstr ""
+
+#: includes/widget-quote-this.php:94
+msgid "Literature"
+msgstr ""
+
+#: includes/widget-quote-this.php:100
+msgid "Title:"
+msgstr ""
+
+#: includes/widget-quote-this.php:104
+msgid "Type:"
+msgstr ""
+

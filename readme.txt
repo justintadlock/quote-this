@@ -2,9 +2,9 @@
 Contributors: greenshady
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3687060
 Tags: widget, shortcode, plugin, post, page, quote, quotes, random
-Requires at least: 2.5
-Tested up to: 2.7.1
-Stable tag: 0.1
+Requires at least: 3.4
+Tested up to: 3.5
+Stable tag: 0.2
 
 Allows the user to call random quotes with the quote_this() function, [quote-this] shortcode, or Quote This widget.
 
@@ -61,16 +61,6 @@ Head over to the *Widgets* section in your WordPress admin and click the "Add" b
 * How to order the quote(s) shown.
 * Possible values: `rand` (more options will be added in the future)
 
-**format**
-
-* What XHTML element should wrap the quotation.
-* Possible values: `blockquote` (default), `p`
-
-**separator**
-
-* What should be added between the quote and quote author.
-* Possible values: Anything (default is `-`)
-
 **echo**
 
 * Whether the quotation should be printed to the screen or returned for use in a function (is not used for the `[quote-this]` shortcode.)
@@ -85,6 +75,10 @@ If you need a more detailed guide, see `readme.html`, which is included with the
 Screenshots are not really needed, but you can see this plugin in action on the <a href="http://justintadlock.com/writing" title="Justin Tadlock's Writing">Writing page</a> of my personal blog.
 
 == Changelog ==
+
+**Version 0.2**
+
+* Pretty much every line of code has changed.  Yeah, so there's no much point in documenting it.  Treat this as if it's a new plugin.
 
 **Version 0.1**
 
