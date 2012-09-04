@@ -22,7 +22,7 @@ function quote_this_life() {
 	$quotes[] = array( "Because I have loved life, I shall have no sorrow to die.", "Amelia Burr" );
 	$quotes[] = array( "Dreams pass into the reality of action. From the actions stems the dream again; and this interdependence produces the highest form of living.", "Anais Nin" );
 	$quotes[] = array( "Half our life is spent trying to find something to do with the time we have rushed through life trying to save.", "Will Rogers" );
-	$quotes[] = array( "There are two ways to slide easily through life: to believe everything or to doubt everything; both ways save us from thinking.", "Theodore Rubin" );
+	$quotes[] = array( "There are two ways to slide easily through life: to believe everything or to doubt everything; both ways save us from thinking.", "Alfred Korzybski" );
 
 	return $quotes;
 }
